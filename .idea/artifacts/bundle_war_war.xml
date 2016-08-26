@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="bundle.war:war">
+    <output-path>$PROJECT_DIR$/bundle.war/target</output-path>
+    <root id="archive" name="risk-manage.bundle.war">
+      <element id="artifact" artifact-name="bundle.war:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,3 @@
+#foreach($!user in $!{userList})
+    $user.name
+#end
