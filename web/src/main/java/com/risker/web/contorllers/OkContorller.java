@@ -42,13 +42,4 @@ public class OkContorller {
         return result;
     }
 
-
-    @RequestMapping("/userlist")
-    public ModelAndView userList(Model model){
-
-        List<User> userList = userQueryService.queryAll();
-        model.addAttribute("userList",userList);
-        return new ModelAndView("userList");
-    }
-
 }

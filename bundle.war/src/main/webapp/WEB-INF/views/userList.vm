@@ -1,3 +1,5 @@
 #foreach($!user in $!{userList})
-    $user.name
+    用户名:$!{user.name}&nbsp;&nbsp;
+    生日:$!date.format('yyyy-MM-dd HH:mm:ss',$!{user.birth})&nbsp;&nbsp;
+    $!{user.birth}<br>
 #end
